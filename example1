@@ -1,0 +1,22 @@
+# if(i == j) {
+#    f = g + h;
+# }
+# else {
+# 	 f = g - h;
+# }
+
+.data
+    f:  .word 0
+    g:  .word 0
+    h:  .word 0
+    i:  .word 0
+    j:  .word 0
+.text
+.globl main
+
+main:
+    j loop
+
+loop:
+    
+
