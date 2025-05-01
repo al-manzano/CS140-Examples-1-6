@@ -23,6 +23,8 @@ false:
     sub     $t0, $t1, $t2
 
 endif:
+    sw $t0, valf
+
     li $v0, 10
     syscall
 
