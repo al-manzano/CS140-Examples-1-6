@@ -9,7 +9,6 @@
 .globl main
 
 main:
-    lw      $t0, valf
     lw      $t1, valg
     lw      $t2, valh
     lw      $t3, vali
