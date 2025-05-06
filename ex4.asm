@@ -18,10 +18,7 @@ main:
     li $t9, 4               # 1 byte
 
 loop:
-
-    mult $t3, $t9           # offset calculation
-    mflo $t8                # storing multiplication
-
+    sll $t8, $t3, 2         # offset calculation
     add $t7, $t0, $t8       # applying offset to address
     lw $t8, 0($t7)          # fetching value from offsetted address
 
