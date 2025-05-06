@@ -31,6 +31,7 @@ loop:
     slt $t8, $t3, $t2       # i < N ?
     bgtz, $t8, loop         # loop conditional
 
+    sw $t1, sum
     li $v0, 10
     syscall
 

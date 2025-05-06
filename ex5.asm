@@ -23,6 +23,7 @@ loop:
     addi $t1, $t1, 1           # i += 1
     j loop
 
+# Bad practice; I used $t4 as a catch all register when I should have used other registers for better clarity
 
 endwhile:
     li $v0, 10
