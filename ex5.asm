@@ -1,7 +1,7 @@
 .data
-    A:      .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-    k:      .word 7
     vali:   .word 0
+    A:      .word 1, 7, 3, 8, 5, 6, 8, 8, 9, 10
+    k:      .word 7
 
 
 .text
@@ -26,6 +26,7 @@ loop:
 # Bad practice; I used $t4 as a catch all register when I should have used other registers for better clarity
 
 endwhile:
+    sw $t1, vali
     li $v0, 10
     syscall
 

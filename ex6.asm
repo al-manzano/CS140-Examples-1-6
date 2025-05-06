@@ -1,6 +1,6 @@
 .data
-    A:      .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     sum:    .word 0
+    A:      .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     vali:   .word 0
 
 .text
