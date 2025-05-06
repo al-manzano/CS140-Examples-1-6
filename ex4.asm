@@ -15,7 +15,6 @@ main:
     lw $t2, N
     lw $t3, vali
     lw $t4, step
-    li $t9, 4               # 1 byte
 
 loop:
     sll $t8, $t3, 2         # offset calculation
