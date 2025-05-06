@@ -5,7 +5,6 @@
     step:   .word 2
     vali:   .word 0
 
-
 .text
 .globl main
 
